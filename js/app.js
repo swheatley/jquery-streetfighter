@@ -1,5 +1,7 @@
 
 $(document).ready(function() {
+    $('ryu-cool').hide();
+    
     $('.ryu').mouseenter(function() {
             $('.ryu-still').hide();
             $('.ryu-cool').hide();
